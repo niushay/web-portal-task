@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(104,9,121,1) 35%, rgba(121,0,255,1) 92%);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+.container {
+    width: 80%;
+    margin: 3% auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    margin: 0 auto;
+}
+
+#preview-image{
+    width: 40%;
+    height: 40%
+}

@@ -5,28 +5,7 @@
 
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
-
-        <style>
-            body {
-                background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(104,9,121,1) 35%, rgba(121,0,255,1) 92%);
-                height: 100vh;
-                margin: 0;
-                padding: 0;
-                overflow-y: scroll;
-            }
-
-            .container {
-                width: 80%;
-                margin: 3% auto;
-                padding: 20px;
-                background-color: white;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-            }
-
-            table {
-                margin: 0 auto;
-            }
-        </style>
+        <link rel="stylesheet" href="{{url("assets/css/custom.css")}}">
     </head>
     <body>
         <div class="container">
@@ -82,7 +61,7 @@
                                                     <label class="custom-file-label" for="customFile">Choose file</label>
                                                 </div>
                                                 <div class="d-flex justify-content-center mt-4">
-                                                    <img class="mt-3" id="preview-image" style="width: 40%; height: 40%">
+                                                    <img class="mt-3" id="preview-image">
                                                 </div>
                                             </div>
                                         </div>
