@@ -7,18 +7,23 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: 3% auto;
     padding: 20px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-table {
-    margin: 0 auto;
-}
-
 #preview-image{
     width: 40%;
     height: 40%
+}
+
+table td,
+table th {
+    font-size: 13px;
+}
+
+#data-table_wrapper {
+    margin: 0;
 }
